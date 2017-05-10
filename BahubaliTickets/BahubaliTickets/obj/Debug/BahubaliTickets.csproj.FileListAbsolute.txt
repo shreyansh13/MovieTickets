@@ -1,0 +1,6 @@
+E:\Code\Hacks\Bahubali2Tickets\BahubaliTickets\BahubaliTickets\bin\Debug\BahubaliTickets.exe.config
+E:\Code\Hacks\Bahubali2Tickets\BahubaliTickets\BahubaliTickets\obj\Debug\BahubaliTickets.csprojResolveAssemblyReference.cache
+E:\Code\Hacks\Bahubali2Tickets\BahubaliTickets\BahubaliTickets\bin\Debug\BahubaliTickets.exe
+E:\Code\Hacks\Bahubali2Tickets\BahubaliTickets\BahubaliTickets\bin\Debug\BahubaliTickets.pdb
+E:\Code\Hacks\Bahubali2Tickets\BahubaliTickets\BahubaliTickets\obj\Debug\BahubaliTickets.exe
+E:\Code\Hacks\Bahubali2Tickets\BahubaliTickets\BahubaliTickets\obj\Debug\BahubaliTickets.pdb
