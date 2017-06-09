@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BahubaliTickets", "BahubaliTickets\BahubaliTickets.csproj", "{6FAC79E4-A979-4948-AB2C-8B4F9671E1F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticker", "Ticker\Ticker.csproj", "{7222CA54-5A0C-48D4-8A9D-E903E0A2F907}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TickerUtils", "Utils\TickerUtils.csproj", "{6AFEEF95-F640-42F8-844A-C4A5CCC6B5AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{6FAC79E4-A979-4948-AB2C-8B4F9671E1F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FAC79E4-A979-4948-AB2C-8B4F9671E1F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FAC79E4-A979-4948-AB2C-8B4F9671E1F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7222CA54-5A0C-48D4-8A9D-E903E0A2F907}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7222CA54-5A0C-48D4-8A9D-E903E0A2F907}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7222CA54-5A0C-48D4-8A9D-E903E0A2F907}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7222CA54-5A0C-48D4-8A9D-E903E0A2F907}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AFEEF95-F640-42F8-844A-C4A5CCC6B5AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AFEEF95-F640-42F8-844A-C4A5CCC6B5AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AFEEF95-F640-42F8-844A-C4A5CCC6B5AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AFEEF95-F640-42F8-844A-C4A5CCC6B5AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

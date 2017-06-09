@@ -1,0 +1,9 @@
+E:\Code\Hacks\Git\MovieTickets\BahubaliTickets\Utils\bin\Debug\Utils.dll
+E:\Code\Hacks\Git\MovieTickets\BahubaliTickets\Utils\bin\Debug\Utils.pdb
+E:\Code\Hacks\Git\MovieTickets\BahubaliTickets\Utils\bin\Debug\Newtonsoft.Json.dll
+E:\Code\Hacks\Git\MovieTickets\BahubaliTickets\Utils\obj\Debug\Utils.dll
+E:\Code\Hacks\Git\MovieTickets\BahubaliTickets\Utils\obj\Debug\Utils.pdb
+E:\Code\Hacks\Git\MovieTickets\BahubaliTickets\Utils\obj\Debug\TickerUtils.csprojResolveAssemblyReference.cache
+E:\Code\Hacks\Git\MovieTickets\BahubaliTickets\Utils\bin\Debug\HtmlAgilityPack.dll
+E:\Code\Hacks\Git\MovieTickets\BahubaliTickets\Utils\bin\Debug\HtmlAgilityPack.pdb
+E:\Code\Hacks\Git\MovieTickets\BahubaliTickets\Utils\bin\Debug\HtmlAgilityPack.xml

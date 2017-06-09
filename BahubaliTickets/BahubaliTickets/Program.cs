@@ -3,7 +3,7 @@ using System.Net;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Net.Mail;
+
 using System.Threading.Tasks;
 
 namespace BahubaliTickets
@@ -12,9 +12,20 @@ namespace BahubaliTickets
     {
         static void Main(string[] args)
         {
+            string outputFile = @"E:\Code\Hacks\data\output.txt";
+            Utils.ScrapeAmazon(outputFile);
+            //Helper.GetTickets(args);
+        }
+    }
+
+    class Helper
+    {
+
+        public static void GetTickets (string[] args)
+        {
             if (args.Length != 5)
             {
-                PrintHelp();
+                PrintTicketsHelp ();
             }
             else
             {
@@ -32,14 +43,11 @@ namespace BahubaliTickets
             }
         }
 
-        static void PrintHelp ()
+        static void PrintTicketsHelp()
         {
             Console.WriteLine("{Date} {Theatres} {To MailingList} {From email address} {Password of From Email}");
         }
-    }
 
-    class Helper
-    {
         public static bool CheckAndMail(string aUrl, string[] aTheatres, string aDate, string aFromEmailAddress, string[] aToEmailAddresses, string aPassword)
         {
             bool status = false;
@@ -57,36 +65,11 @@ namespace BahubaliTickets
 
             if (!String.IsNullOrEmpty(msg))
             {                
-                status = SendMail(msg, aFromEmailAddress, aToEmailAddresses, aPassword);
+                status = Utils.SendMail(msg, aFromEmailAddress, aToEmailAddresses, aPassword);
             }
             return status;
         }
 
-        public static bool SendMail(string aMessage, string aFromEmailAddress, string[] aToEmailAddress, string aPassword)
-        {
-            bool status = false;
-            MailMessage mail = new MailMessage();
 
-            foreach (string toemail in aToEmailAddress)
-                mail.To.Add(toemail);
-            mail.From = new MailAddress(aFromEmailAddress);
-            mail.Subject = "!!! Tickets Available Now !!! Hurry !!!";
-
-            mail.Body = aMessage;
-
-            mail.IsBodyHtml = true;
-            SmtpClient smtp = new SmtpClient();
-            smtp.Host = "smtp.gmail.com"; //Or Your SMTP Server Address
-            smtp.Credentials = new System.Net.NetworkCredential
-                 (aFromEmailAddress, aPassword); // ***use valid credentials***
-            smtp.Port = 587;
-
-            //Or your Smtp Email ID and Password
-            smtp.EnableSsl = true;
-            smtp.Send(mail);
-            Console.WriteLine("Mail Sent");
-            status = true;
-            return status;
-        }
     }
 }

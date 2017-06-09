@@ -1,0 +1,12 @@
+E:\Code\Hacks\Git\MovieTickets\BahubaliTickets\Ticker\bin\Debug\Ticker.exe.config
+E:\Code\Hacks\Git\MovieTickets\BahubaliTickets\Ticker\bin\Debug\Ticker.exe
+E:\Code\Hacks\Git\MovieTickets\BahubaliTickets\Ticker\bin\Debug\Ticker.pdb
+E:\Code\Hacks\Git\MovieTickets\BahubaliTickets\Ticker\bin\Debug\Utils.dll
+E:\Code\Hacks\Git\MovieTickets\BahubaliTickets\Ticker\bin\Debug\Newtonsoft.Json.dll
+E:\Code\Hacks\Git\MovieTickets\BahubaliTickets\Ticker\bin\Debug\Utils.pdb
+E:\Code\Hacks\Git\MovieTickets\BahubaliTickets\Ticker\obj\Debug\Ticker.csprojResolveAssemblyReference.cache
+E:\Code\Hacks\Git\MovieTickets\BahubaliTickets\Ticker\obj\Debug\Ticker.exe
+E:\Code\Hacks\Git\MovieTickets\BahubaliTickets\Ticker\obj\Debug\Ticker.pdb
+E:\Code\Hacks\Git\MovieTickets\BahubaliTickets\Ticker\bin\Debug\HtmlAgilityPack.dll
+E:\Code\Hacks\Git\MovieTickets\BahubaliTickets\Ticker\bin\Debug\HtmlAgilityPack.pdb
+E:\Code\Hacks\Git\MovieTickets\BahubaliTickets\Ticker\bin\Debug\HtmlAgilityPack.xml
